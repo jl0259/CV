@@ -1,0 +1,57 @@
+
+p{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 15px 0 15px chartreuse;
+    
+
+}
+footer{
+    background:rgba(0, 0, 0, 0.253); 
+    position:fixed; 
+   bottom:0;
+   width:100%;
+   margin: auto;
+   height:50px;
+   text-align: center;
+   }
+   .fa-facebook{
+    font-size: 35px;
+    margin: 11px;
+    text-shadow: 1px 0 10px chartreuse;
+    
+    
+  }
+  .copyright{
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 0 10px chartreuse;
+  }  
+  
+/* * {margin:0; padding:0; font-size:1em; box-sizing:border-box;} */
+body { height:100%; transition:background-color 3s ease; background:linear-gradient(70deg,#0fabe9,#4d9b5a,#443eb3,#4391be,#49c79d);  animation:degradeFond 30s ease infinite; background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
+@keyframes degradeFond {
+	0% {background-position:0 50%;}
+	50% {background-position:50% 50%;}
+	100% {background-position:0 50%;}
+ 
+  
+}
+.compétence{
+  border-style: solid; color:black;width:500px;
+  margin: auto;
+  border-width: 2px;
+}
+
+.xp{
+  border-style: solid; color:black;width:500px;
+  margin: auto;
+  border-width: 2px;
+  margin-top: 30px;
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
